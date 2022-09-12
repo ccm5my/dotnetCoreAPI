@@ -4,3 +4,4 @@ bin
 obj
 *.sln
 Properties/
+AnalysisLevel_5_Default.editorconfig
