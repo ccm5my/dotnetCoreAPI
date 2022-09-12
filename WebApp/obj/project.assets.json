@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cameronmoore/projects/dotnetCoreAPI/WebApp/WebApp/WebApp.csproj",
+      "projectUniqueName": "/Users/cameronmoore/projects/dotnetCoreAPI/WebApp/WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "/Users/cameronmoore/projects/dotnetCoreAPI/WebApp/WebApp/WebApp.csproj",
+      "projectPath": "/Users/cameronmoore/projects/dotnetCoreAPI/WebApp/WebApp.csproj",
       "packagesPath": "/Users/cameronmoore/.nuget/packages/",
-      "outputPath": "/Users/cameronmoore/projects/dotnetCoreAPI/WebApp/WebApp/obj/",
+      "outputPath": "/Users/cameronmoore/projects/dotnetCoreAPI/WebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/cameronmoore/.nuget/NuGet/NuGet.Config"

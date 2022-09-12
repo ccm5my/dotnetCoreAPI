@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SAY3wE85dyB0s0byrGEeFUHxGw17nlDdmC+KeznCfDXMVcx/VvZCHC6F2jVSCfvKSx1voYsVg+RTyra90Wlu7w==",
+  "dgSpecHash": "O8g0V9JCqo033QKmhOYiLAKHnUrcd0mYOqtQFNgDtUizL3kcWHuwgIeJYluIzzkxAJlIRJamXDl+nlZt8tDMVA==",
   "success": true,
-  "projectFilePath": "/Users/cameronmoore/projects/dotnetCoreAPI/WebApp/WebApp/WebApp.csproj",
+  "projectFilePath": "/Users/cameronmoore/projects/dotnetCoreAPI/WebApp/WebApp.csproj",
   "expectedPackageFiles": [
     "/Users/cameronmoore/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/cameronmoore/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
