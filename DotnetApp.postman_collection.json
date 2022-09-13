@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "8a05c0e8-4ccf-4d5f-89e5-9857376e7fa7",
+		"name": "DotnetApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17914850"
+	},
+	"item": [
+		{
+			"name": "Get weather forecast",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add weather forecast",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"input\":\"example\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/WeatherForecast/weather",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"WeatherForecast",
+						"weather"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/HealthCheck",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"HealthCheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get TodoItems",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/TodoItems",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TodoItems"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTodoItem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"doThis\",\n    \"isComplete\":false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/TodoItems",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TodoItems"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
