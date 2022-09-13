@@ -4,6 +4,8 @@
         <TargetFramework>net6.0</TargetFramework>
 
         <IsPackable>false</IsPackable>
+
+        <RootNamespace>WebApp.Test</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -20,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\WebApp\WebApp.csproj" />
+      <ProjectReference Include="..\WebApi\WebApi.csproj" />
     </ItemGroup>
 
 </Project>
