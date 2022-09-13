@@ -6,4 +6,6 @@ obj
 Properties/
 AnalysisLevel_5_Default.editorconfig
 WebApp.sln.DotSettings.user
-
+netcoreapp2.1
+Microsoft.TestPlatform.Platform.Abstractions.dll
+xunit.runner
