@@ -11,3 +11,5 @@ Navigate to the WebApi directory and run the following command in the command li
 To create some data, use the POST endpoint to create some TODO Items. This will create some data in your local SQL Server in memory database.
 
 Next, you can update and get this data with the Put and Get endpoints
+
+This app also contains a sample healthcheck endpoint as well as a weather endpoint that generates hardcoded data.
