@@ -5,3 +5,5 @@ obj
 *.sln
 Properties/
 AnalysisLevel_5_Default.editorconfig
+WebApp.sln.DotSettings.user
+
