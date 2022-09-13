@@ -1,5 +1,7 @@
 # To start up this application
 
+Navigate to WebApi folder and run the following command
+
 ```dotnet run```
 
 
