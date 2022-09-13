@@ -1,15 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApp.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class HealthCheckController: ControllerBase
+    public class HealthCheckController : ControllerBase
     {
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Healthy");
+            return Ok("healthy");
         }
     }
 }
